@@ -15,7 +15,7 @@ Remark:  UED (from China) is author this mod for windows.
 ![ST8PE4](https://gitflic.ru/project/tx00100xt/se1-tse-st8vipe/blob/raw?file=Images%2Fst8vipe-4.png&commit=cddef0934c52dc1ada24dc5be6d8456c0bb8b7b0)
 
 
-Download [SamTSE-ST8VI.tar.xz] archive and unpack to  SeriousSamClassic/SamTSE/ directory.
+Download [SamTSE-ST8VIPE.tar.xz] archive and unpack to  SeriousSamClassic/SamTSE/ directory.
 To start the modification, use the game menu - item Modification.
 
 #### Building Serious Sam Classic ST8 MOD VI Parse Error modification (only for SS:TSE)
