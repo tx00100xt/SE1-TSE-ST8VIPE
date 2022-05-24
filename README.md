@@ -6,13 +6,13 @@ This mod required [https://gitflic.ru/project/tx00100xt/serioussamclassic] to ru
 ST8 MOD VI was created by fans of the game Serious Sam Classic and is distributed for free.
 Remark:  UED (from China) is author this mod for windows.
 
-![ST8PE1](https://gitflic.ru/project/tx00100xt/se1-tse-st8vi/blob/raw?file=Images%2Fst8vi-1.png&commit=6e891858ea6b75ec4e7d4894e28e00b30a89b2ee)
+![ST8PE1](https://gitflic.ru/project/tx00100xt/se1-tse-st8vipe/blob/raw?file=Images%2Fst8vipe-1.png&commit=cddef0934c52dc1ada24dc5be6d8456c0bb8b7b0)
 
-![ST8PE2](https://gitflic.ru/project/tx00100xt/se1-tse-st8vi/blob/raw?file=Images%2Fst8vi-2.png&commit=6e891858ea6b75ec4e7d4894e28e00b30a89b2ee)
+![ST8PE2](https://gitflic.ru/project/tx00100xt/se1-tse-st8vipe/blob/raw?file=Images%2Fst8vipe-2.png&commit=cddef0934c52dc1ada24dc5be6d8456c0bb8b7b0)
 
-![ST8PE3](https://gitflic.ru/project/tx00100xt/se1-tse-st8vi/blob/raw?file=Images%2Fst8vi-1.png&commit=6e891858ea6b75ec4e7d4894e28e00b30a89b2ee)
+![ST8PE3](https://gitflic.ru/project/tx00100xt/se1-tse-st8vipe/blob/raw?file=Images%2Fst8vipe-3.png&commit=cddef0934c52dc1ada24dc5be6d8456c0bb8b7b0)
 
-![ST8PE4](https://gitflic.ru/project/tx00100xt/se1-tse-st8vi/blob/raw?file=Images%2Fst8vi-2.png&commit=6e891858ea6b75ec4e7d4894e28e00b30a89b2ee)
+![ST8PE4](https://gitflic.ru/project/tx00100xt/se1-tse-st8vipe/blob/raw?file=Images%2Fst8vipe-4.png&commit=cddef0934c52dc1ada24dc5be6d8456c0bb8b7b0)
 
 
 Download [SamTSE-ST8VI.tar.xz] archive and unpack to  SeriousSamClassic/SamTSE/ directory.
