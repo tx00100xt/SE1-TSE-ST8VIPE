@@ -30,6 +30,12 @@ cd SE1-TSE-ST8VIPE/Sources
 After that , libraries will be collected in the x32 or x64 directory . 
 Copy them to SeriousSamClassic/SamTSE/Mods/ST8VIPE/Bin folder.
 
+### Suported OS
+linux
+
+### Other OS
+Not supported
+
 License
 -------
 
