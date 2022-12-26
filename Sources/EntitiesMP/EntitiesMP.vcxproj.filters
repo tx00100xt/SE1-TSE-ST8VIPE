@@ -62,6 +62,9 @@
     <Filter Include="Messages">
       <UniqueIdentifier>{7a1dcaf7-0837-41e6-9e0c-6a85f796cc5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Class Files\PESE2Q">
+      <UniqueIdentifier>{b12a2281-b138-4185-9664-e89d9bfb96cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Common\Common.cpp">
@@ -542,6 +545,93 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="WorldSettingsController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BatteryMarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESBigHead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Firework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FireworksDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyItemFE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningRay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OverLord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PESpawnBattery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PESpawner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PESpawnerEG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PESpawnProjectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PESpawnProjectile2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBotMarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBotView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyChanger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotFixed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateCreatorEG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransProjectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Warp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1488,12 +1578,195 @@
     <ClInclude Include="WorldSettingsController_tables.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BatteryMarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BatteryMarker_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Beast_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodSpray_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="condition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="condition_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndShow_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESBigHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESBigHead_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Firework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Firework_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FireworksDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FireworksDisplay_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gizmo_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyItemFE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyItemFE_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningRay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningRay_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightStyle_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OverLord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OverLord_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawnBattery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawnBattery_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawner_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawnerEG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawnerEG_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawnProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawnProjectile_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawnProjectile2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PESpawnProjectile2_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBot_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBotMarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBotMarker_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBotView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBotView_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyChanger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyChanger_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rail_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotFixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotFixed_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Star_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateCreator_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateCreatorEG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateCreatorEG_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransProjectile_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Warp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Warp_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="NavigationMarker.es">
-      <Filter>Class Files\AI</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Reminder.es">
       <Filter>Class Files\AI</Filter>
     </CustomBuild>
     <CustomBuild Include="Spinner.es">
@@ -2359,6 +2632,144 @@
     </CustomBuild>
     <CustomBuild Include="..\..\Flesh\Data\Messages\Enemies\Woman.txt">
       <Filter>Messages</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AirWave.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Catman.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Cyborg.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CyborgBike.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Fishman.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GhostBusterRay.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Huanman.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mamut.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mamutman.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mantaman.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RobotDriving.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RobotFixed.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RobotFlying.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Warp.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransProjectile.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Tracer.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TemplateCreatorEG.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TemplateCreator.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Star.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Rail.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PropertyChanger.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PlayerBot.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PlayerBotMarker.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PlayerBotView.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PESpawnBattery.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PESpawnBattery2.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PESpawner.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PESpawnerEG.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PESpawnProjectile.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PESpawnProjectile2.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OverLord.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LightStyle.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LightningRay.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KeyItemFE.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FireworksDisplay.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Firework.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ESBigHead.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EndShow.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Display.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="condition.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Box.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BatteryMarker.es">
+      <Filter>Class Files\PESE2Q</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExotechLarvaAnimator.es">
+      <Filter>Class Files\Effects</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Reminder.es">
+      <Filter>Class Files\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dragonman.es">
+      <Filter>Class Files\AI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Pipebomb.es">
+      <Filter>Class Files\AI</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
